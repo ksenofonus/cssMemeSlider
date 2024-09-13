@@ -18,10 +18,11 @@ body {
 .slider_wrapper {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   height: 100%;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .slider_top {
@@ -46,7 +47,7 @@ body {
 }
 .slider__item {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all 0.5s ease;
   flex-shrink: 0;
   border-radius: 3%;
